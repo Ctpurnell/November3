@@ -1,1 +1,54 @@
+main {
+    margin: 90%;
+    padding: 90%;
 
+}
+
+.about {
+    display: flex;
+    justify-content: flex-start;
+    font-style: bold;
+    color: rgb(116, 6, 195);
+}
+.container {
+    display:inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+article {
+
+    size-adjust: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 300px;
+  }
+  
+  nav a {
+    background-color: unset;
+    color: var(--navlink-color);
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color:blue
+
+
+
+
+
+
+
+
+@media screen and (max-width: 360px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    main section {
+        flex: 0 0 95%
