@@ -1,31 +1,6 @@
-main {
-    margin: 90%;
-    padding: 90%;
-
-}
-
-header {
-    padding: 15px 10% 15px 0%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    box-shadow: 0 5px 35px darkgray (146, 204, 206, 0.4);
-  }
-  
-  header h1 {
-    color:darkgray;
-    padding: 5px 5% 5px 10%;
-    margin: 0;
-    font-size: 4vw;
-    line-height: 1;
-  }
-
 
 body {
-    
-    
+       
     color: aliceblue;
     /* background-image: url("https://pbblogassets.s3.amazonaws.com/uploads/2018/10/16115808/SPACEKIT_header.jpg"); */
     background-image: url("https://images.pexels.com/photos/41953/earth-blue-planet-globe-planet-41953.jpeg?cs=srgb&dl=pexels-pixabay-41953.jpg&fm=jpg&_gl=1*1htxs0y*_ga*MTA1MDE4MDUzOC4xNjY3MjczNDA4*_ga_8JE65Q40S6*MTY2NzI3MzQwOS4xLjEuMTY2NzI3MzQzNy4wLjAuMA..");
@@ -34,14 +9,13 @@ body {
 }
 
 
-
-
 .about {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     font-style: bold;
     color: rgb(11, 97, 246);
 }
+
 .container {
     display:inline-flex;
     flex-direction: column;
@@ -71,6 +45,15 @@ nav {
   
   nav a:hover {
     color:blue
+  }
+
+  #contact {
+    display:flex;
+    
+  }
+ 
+
+
 
 
 
