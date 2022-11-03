@@ -1,9 +1,9 @@
 body {
-  margin: 0;
-  padding: 0;
-  color: rgb(20, 101, 176);
+  background-color: rgb(146, 192, 235);
 }
-
+h1 {
+  color:aliceblue
+}
 header {
   background-image: url("https://pbblogassets.s3.amazonaws.com/uploads/2018/10/16115808/SPACEKIT_header.jpg");
   background-size: cover;
@@ -15,24 +15,45 @@ header {
 }
 
 .hero-banner {
-  background: lightgray;
+  background-color: lightgray;
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
   min-height: 30vh;
   padding: 2% 6%;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: flex-end;
   text-align: right;
 }
 
 .green-box {
   background-color: lightgray;
+  color: black;
+  font-family: sans-serif;
+  border-radius: 15%;
+  box-shadow: 0 0 15px black;
   width: 300px;
-  border: 10px solid green;
+  border: 5px solid green;
   padding: 50px;
   margin: 20px;
+}
+
+.blue-box {
+  background-color: lightgray;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 15%;
+  box-shadow: 0 0 15px black;
+  width: 300px;
+  border: 10px solid rgb(4, 4, 222);
+  padding: 50px;
+  margin: 20px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
 }
 
 .about {
@@ -42,33 +63,38 @@ header {
   color: rgb(43, 238, 241);
 }
 
+
+
+.about:hover {
+  box-shadow: 10px 10px 5px rgba(244, 240, 240, 0.2);
+}
+
 .container {
+  margin: 2px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
 }
 .card {
-  /* border: 5px solid cornflowerblue; */
-  border-radius: 5px ;
+  background-color: aliceblue;
+  border-radius: 10px;
   padding: 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
-
-
 }
 
 .card:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,.2);
-
-
+  padding: 10px 10px 5px 5px black;
+  background-color: lightgray;
+  box-shadow: 0 0 15px rgba(20, 20, 20, 0.2);
 }
 .card-img {
+  
   height: 200px;
 }
 .card-img1 {
-  height: 400px;
+  height: 300px;
 }
 
 article {
@@ -86,17 +112,17 @@ nav a {
   display: inline-block;
   justify-content: space-between;
 
-  color: rgb(17, 217, 217);
+  color: lightgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: rgb(129, 12, 239);
+  color: rgb(165, 77, 247);
 }
 
 ul {
   display: contents;
-  justify-content: ;
 }
 
 .class {
@@ -107,6 +133,11 @@ ul {
   display: flex;
   justify-content: space-between;
 }
+.resume {
+  display: flex;
+  justify-content:center;
+}
+
 
 @media screen and (max-width: 730px) {
   main {
